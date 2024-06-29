@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app{
+  min-height: 100vh;
+  display: grid;
+  background: #bcdfff;
+}
+
+.weatherForm{
+  margin: 20px;
+}
+
+.cityInput{
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 10px;
+}
+
+.searchWeather{
+  padding: 10px 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f6edc3;
+  color: gray;
+}
+
 .App {
   text-align: center;
 }

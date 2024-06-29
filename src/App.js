@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import { useState, useEffect, useCallback } from 'react';
 import './App.css';
+import SearchBar from './components/SearchBar';
+import WeatherData from './components/SearchBar';
+import { getWeatherData } from './services/WeatherService';
 
 function App() {
+  const persistedLocation = localStorage.getItem('searchTerm');
+  const [searchTerm, setSearchTerm] = useState(persistedLocation || 'Stockton, CA');
+  const [WeatherData, setWeatherData] = useState([]);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +25,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+  )
+};
 
 export default App;
