@@ -1,31 +1,16 @@
-const weatherData = [
-    {
-      day: "Monday",
-      temperature: 20,
-      condition: "Sunny"
-    },
-    {
-      day: "Tuesday",
-      temperature: 22,
-      condition: "Cloudy"
-    },
-    {
-      day: "Wednesday",
-      temperature: 18,
-      condition: "Rainy"
-    },
-    // Add more data as needed
-  ];
-  export default function WeatherData() {
-    return (
-      <>
-        {weatherData.map((item) => (
-          <div className="weather-card">
-            <p>{item.day}</p>
-            <p>{item.temperature}</p>
-            <p>{item.condition}</p>
-          </div>
-        ))}
-     </>
-    )
-  }
+import React from 'react'
+import './WeatherData.css'
+
+
+const WeatherData = () => {
+  return (
+    <div class="card">
+        <h1 class="displayCity">Atlanta</h1>
+        <>?</>
+        <br/>
+        <>?</>
+    </div>
+  )
+}
+
+export default WeatherData

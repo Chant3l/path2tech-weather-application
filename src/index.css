@@ -1,13 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: rgba(198, 240, 120, 0.301);
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.weatherForm{
+  margin: 20px;
 }
+
+.cityInput{
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 10px;
+}
+
+.searchWeather{
+  padding: 10px 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f6edc3;
+  color: gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
