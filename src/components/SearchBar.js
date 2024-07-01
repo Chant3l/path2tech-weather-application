@@ -3,7 +3,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div className='weather'>
+    <div className='weatherForm'>
         <div className='searchbar'>
             <input type='text' class="cityInput"
             placeholder='Enter City'/>
