@@ -1,11 +1,17 @@
 .card{
-    background: linear-gradient(180deg, rgba(226, 206, 21, 0.616), rgba(7, 105, 233, 0.664));
-    padding: 50px;
-    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.774);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 300px;
-  }
- 
+  background: linear-gradient(180deg, rgb(90, 187, 226), rgba(18, 18, 172, 0.664));
+  padding: 50px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.774);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+}
+
+h1{
+font-size: 3.8rem;
+margin-top: 0;
+margin-bottom: 25px;
+}
+
 

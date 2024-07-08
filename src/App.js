@@ -1,18 +1,17 @@
 import React from 'react'
-import SearchBar from './components/SearchBar'
-import WeatherData from './components/WeatherData'
+import WeatherData from './components/WeatherData.js'
+import WeatherUpdate from './services/WeatherUpdate.js'
+import './App.css'
+
 
 
 const App = () => {
   return (
     <div className='app'>  
-    <SearchBar/>
+    <WeatherUpdate/>
     <WeatherData/>
     </div>
   )
 }
 
-
-
 export default App
-

@@ -2,8 +2,7 @@
 
 body{
   margin: 0;
-  padding: 0;
-  background-color: rgba(198, 240, 120, 0.301);
+  background: rgb(162, 170, 173);
   font-family: "Rubik", sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,20 +16,23 @@ body{
 .cityInput{
   padding: 10px;
   margin: 10px;
-  width: 300px;
-  font-size: 2rem;
-  font-weight: bold;
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: bolder;
   border: 2px solid rgb(245, 245, 245);
   border-radius: 10px;
 }
 
 .searchWeather{
-  padding: 10px 15px;
-  font-size: 2rem;
+  padding: 5px 5px;
+  font-size: 1.5rem;
   font-weight: bold;
-  background-color: #f6edc3;
-  color: gray;
+  background-color: rgb(173, 216, 230);
+  color: whitesmoke;
   border-radius: 10px;
   cursor: pointer;
+}
+.searchWeather:hover{
+  background-color: #73d7ff;
 }
 
